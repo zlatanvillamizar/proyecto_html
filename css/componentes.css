@@ -1,0 +1,152 @@
+/* Estilo idéntico a tus destacados actuales */
+.grid-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.product-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.product-info p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #059669;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.btn-ver {
+    background: #059669;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* Estilo para la lista de filtros */
+.filtros {
+    list-style: none;
+    padding: 0;
+}
+
+.filtros li {
+    margin-bottom: 10px;
+}
+
+.filtros li a {
+    text-decoration: none;
+    color: #4b5563;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.filtros li a:hover {
+    color: #059669; /* Verde EcoMarket */
+}
+
+/* Ajuste del Header para que coincida con el index */
+header {
+    background: #ffffff;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* Sidebar */
+.sidebar { background: #ffffff; padding: 20px; border-radius: 12px; height: fit-content; border: 1px solid #e5e7eb; }
+.filtros { list-style: none; padding: 0; }
+.filtros li a { text-decoration: none; color: #059669; font-weight: 600; display: block; padding: 8px 0; }
+
+/* Grid */
+.grid-productos { display: flex; flex-direction: column; gap: 20px; }
+
+/* Tarjetas (Idénticas a tu captura) */
+.product-card {
+    display: flex; align-items: center; background: #ffffff;
+    padding: 20px; border-radius: 15px; border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.product-card img { width: 150px; height: 150px; border-radius: 10px; margin-right: 25px; object-fit: cover; }
+.product-info h3 { margin: 0 0 10px 0; color: #333; text-transform: uppercase; }
+.price { color: #059669; font-weight: bold; margin-bottom: 5px; display: block; }
+.btn-ver { background: #059669; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 0.9rem; }
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Estilo para el contenedor del texto central */
+.hero-content {
+    color: #ffffff; /* Blanco puro para contrastar con el fondo oscuro */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6); /* Sombra suave para que el texto resalte */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Específicamente para tu título */
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Específicamente para tu descripción */
+.hero-content p {
+    font-size: 1.2rem;
+    color: #f0f0f0; /* Un blanco un poco más suave */
+    margin-bottom: 20px;
+}
+/* --- ESTO ES LO QUE FALTA --- */
+.catalogo-page {
+    display: grid;
+    grid-template-columns: 220px 1fr; /* Sidebar fijo, catálogo flexible */
+    gap: 25px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.grid-productos { 
+    display: grid; 
+    /* Esta es la clave para las 4 columnas */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; 
+    width: 100%; /* Asegura que el grid ocupe todo el espacio derecho */
+}
