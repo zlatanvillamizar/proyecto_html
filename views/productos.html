@@ -1,102 +1,63 @@
-<!-- Sección del Catálogo de Productos -->
-<section class="catalog-section">
-    <h1>Nuestro Catálogo</h1>
-    
-    <div class="catalog-grid">
-        <!-- Tarjeta 1 (Cuidado Personal) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/cepillobambu.jpg" alt="Cepillo de Dientes de Bambú">
-            </div>
-            <div class="product-info">
-                <h3>Cepillo de Dientes de Bambú</h3>
-                <p>Biodegradable y con cerdas suaves de carbón activado.</p>
-                <span class="product-price">$12.000</span>
-            </div>
-        </article>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - EcoMarket</title>
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componentes.css">
+    <link rel="stylesheet" href="../index.html">
+</head>
+<body>
 
-        <!-- Tarjeta 2 (Hogar y Cocina) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/Botella_de_acero.jpg" alt="Botella Térmica de Acero">
-            </div>
-            <div class="product-info">
-                <h3>Botella Térmica de Acero</h3>
-                <p>Mantiene tus bebidas frías por 24 horas o calientes por 12.</p>
-                <span class="product-price">$45.000</span>
-            </div>
-        </article>
+    <!-- Header Profesional -->
+    <header>
+        <div class="logo">ECO-MARKET</div>
+        <nav>
+            <a href="../index.html">INICIO</a>
+            <a href="productos.html">PRODUCTOS</a>
+            <a href="sobre-nosotros.html">NOSOTROS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
 
-        <!-- Tarjeta 3 (Bolsas y Transporte) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/bolsa_malla.jpg" alt="Bolsas de Malla para Compra">
-            </div>
-            <div class="product-info">
-                <h3>Bolsas de Malla para Compra</h3>
-                <p>Hechas de algodón 100% orgánico. Flexibles y lavables.</p>
-                <span class="product-price">$15.000</span>
-            </div>
-        </article>
+    <main class="catalogo-page">
+        <!-- Sidebar de Filtros -->
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <ul class="filtros">
+                <li><a href="#">Todo</a></li>
+                <li><a href="#">Cuidado Personal</a></li>
+                <li><a href="#">Hogar y Cocina</a></li>
+                <li><a href="#">Estilo de Vida</a></li>
+            </ul>
+        </aside>
 
-        <!-- Tarjeta 4 (Cuidado Personal) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/champu_natural.jpg" alt="Champú Sólido de Hierbas">
-            </div>
-            <div class="product-info">
-                <h3>Champú Sólido de Hierbas</h3>
-                <p>Libre de empaques plásticos, crueldad animal y sulfatos.</p>
-                <span class="product-price">$22.000</span>
-            </div>
-        </article>
+        <!-- Grid de 20 Productos -->
+        <section class="grid-productos">
+            <!-- Bloques repetidos 20 veces -->
+            <div class="product-card"><img src="../img/producto1.jpg" alt="Producto"><div class="product-info"><h3>Producto 1</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto2.jpg" alt="Producto"><div class="product-info"><h3>Producto 2</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto3.jpg" alt="Producto"><div class="product-info"><h3>Producto 3</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto4.jpg" alt="Producto"><div class="product-info"><h3>Producto 4</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto5.jpg" alt="Producto"><div class="product-info"><h3>Producto 5</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto6.jpg" alt="Producto"><div class="product-info"><h3>Producto 6</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto7.jpg" alt="Producto"><div class="product-info"><h3>Producto 7</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto8.jpg" alt="Producto"><div class="product-info"><h3>Producto 8</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto9.jpg" alt="Producto"><div class="product-info"><h3>Producto 9</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto10.jpg" alt="Producto"><div class="product-info"><h3>Producto 10</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto11.jpg" alt="Producto"><div class="product-info"><h3>Producto 11</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto12.jpg" alt="Producto"><div class="product-info"><h3>Producto 12</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto13.jpg" alt="Producto"><div class="product-info"><h3>Producto 13</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto14.jpg" alt="Producto"><div class="product-info"><h3>Producto 14</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto15.jpg" alt="Producto"><div class="product-info"><h3>Producto 15</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto16.jpg" alt="Producto"><div class="product-info"><h3>Producto 16</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto17.jpg" alt="Producto"><div class="product-info"><h3>Producto 17</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto18.jpg" alt="Producto"><div class="product-info"><h3>Producto 18</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto19.jpg" alt="Producto"><div class="product-info"><h3>Producto 19</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+            <div class="product-card"><img src="../img/producto20.jpg" alt="Producto"><div class="product-info"><h3>Producto 20</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
+        </section>
+    </main>
 
-        <!-- Tarjeta 5 (Hogar y Cocina) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/pajitas.jpg" alt="Kit de Pajitas Ecológicas">
-            </div>
-            <div class="product-info">
-                <h3>Kit de Pajitas Ecológicas</h3>
-                <p>Incluye 4 pajitas de acero inoxidable y un cepillo limpiador.</p>
-                <span class="product-price">$18.000</span>
-            </div>
-        </article>
-
-        <!-- Tarjeta 6 (Hogar y Cocina) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/envoltorio.jpg" alt="Envoltorios de Cera de Abeja">
-            </div>
-            <div class="product-info">
-                <h3>Envoltorios de Cera de Abeja</h3>
-                <p>Alternativa lavable y reutilizable al papel film plástico.</p>
-                <span class="product-price">$25.000</span>
-            </div>
-        </article>
-
-        <!-- Tarjeta 7 (Cuidado Personal) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/disco.jpg" alt="Discos Desmaquillantes Reutilizables">
-            </div>
-            <div class="product-info">
-                <h3>Discos Desmaquillantes</h3>
-                <p>Hechos de bambú y algodón. Lavables y suaves con tu piel.</p>
-                <span class="product-price">$14.000</span>
-            </div>
-        </article>
-
-        <!-- Tarjeta 8 (Hogar y Cocina) -->
-        <article class="product-card">
-            <div class="product-image">
-                <img src="../img/esponja.jpg" alt="Esponja de Luffa Natural">
-            </div>
-            <div class="product-info">
-                <h3>Esponja de Luffa Natural</h3>
-                <p>Esponja vegetal para lavar platos o para uso corporal. 100% compostable.</p>
-                <span class="product-price">$8.000</span>
-            </div>
-        </article>
-    </div>
-</section>
+</body>
+</html>
