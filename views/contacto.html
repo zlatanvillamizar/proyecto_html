@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - EcoMarket</title>
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componentes.css">
 </head>
 <body>
 
@@ -18,20 +23,22 @@
         </nav>
     </header>
 
-    <main class="contacto-page">
+    <main class="contacto-page container">
         <h1>Contacto</h1>
         <p>Estamos aquí para ayudarte. Déjanos tu mensaje y te responderemos pronto.</p>
 
-        <form class="contacto-form">
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo electrónico" required>
-            <textarea placeholder="¿En qué podemos ayudarte?" rows="5" required></textarea>
-            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+        <form class="contacto-form form-container">
+            <input type="text" placeholder="Tu nombre" class="input-field" required>
+            <input type="email" placeholder="Tu correo electrónico" class="input-field" required>
+            <textarea placeholder="¿En qué podemos ayudarte?" rows="5" class="input-field" required></textarea>
+            <button type="submit" class="btn-ver">Enviar mensaje</button>
         </form>
     </main>
 
     <footer>
-        <p>&copy; 2026 Eco-Market - Todos los derechos reservados.</p>
+        <div class="container" style="text-align: center; padding: 2rem 0;">
+            <p>&copy; 2026 Eco-Market - Todos los derechos reservados.</p>
+        </div>
     </footer>
 
 </body>

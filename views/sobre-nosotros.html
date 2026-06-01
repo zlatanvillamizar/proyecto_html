@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros - EcoMarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componentes.css">
 </head>
 <body>
 
-    <!-- Reutiliza el mismo Header -->
     <header>
         <div class="logo">ECO-MARKET</div>
         <nav>
@@ -20,35 +25,38 @@
     </header>
 
     <main class="nosotros-page">
-        <section class="hero-nosotros">
-            <h1>Sobre Eco-Market</h1>
-            <p>Comprometidos con el planeta y tu estilo de vida.</p>
+        <section class="mision-banner">
+            <div class="container">
+                <h1>Nuestra Misión</h1>
+                <p>Crear un impacto positivo conectando consumidores conscientes con productos que respetan la Tierra.</p>
+            </div>
+        </section>
+        
+        <section class="container about-section">
+            <h2 class="section-title">¿Quiénes somos?</h2>
+            <p>En EcoMarket, no solo vendemos productos; promovemos un cambio de estilo de vida. Nacimos en 2026 con la firme convicción de que cada pequeña acción cuenta para reducir nuestra huella ecológica.</p>
+            <p>Seleccionamos cuidadosamente a nuestros proveedores, asegurando que cada artículo sea biodegradable, reutilizable o de origen ético.</p>
         </section>
 
-        <section class="contenido-nosotros">
-            <h2>Nuestra Misión</h2>
-            <p>Aquí puedes contar la historia de cómo nació Eco-Market y qué valores los mueven.</p>
-            
-            <div class="valores-grid">
-                <div class="card-valor">
-                    <h3>Sostenibilidad</h3>
-                    <p>Productos pensados para reducir el impacto ambiental.</p>
-                </div>
-                <div class="card-valor">
-                    <h3>Calidad</h3>
-                    <p>Seleccionamos lo mejor para nuestros clientes.</p>
-                </div>
-                <div class="card-valor">
-                    <h3>Comunidad</h3>
-                    <p>Creciendo juntos por un futuro más verde.</p>
-                </div>
+        <section class="container testimonials-section">
+            <h2 class="section-title text-center">Lo que dicen nuestros clientes</h2>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <p class="testimonial-text">"¡Productos increíbles y 100% ecológicos! Me cambió la vida."</p>
+                    <span class="author-name">- Cliente Feliz</span>
+                </article>
+                <article class="testimonial-card">
+                    <p class="testimonial-text">"Envío rápido y empaque sin plástico. Totalmente recomendado."</p>
+                    <span class="author-name">- Cliente Verde</span>
+                </article>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Eco-Market - Todos los derechos reservados.</p>
+        <div class="container text-center">
+            <p>&copy; 2026 EcoMarket. Todos los derechos reservados.</p>
+        </div>
     </footer>
-
 </body>
 </html>
