@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoMarket | Tu Tienda Sustentable</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/componentes.css">
+    <style>
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/peces.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -18,10 +34,6 @@
             <a href="views/sobre-nosotros.html">NOSOTROS</a>
             <a href="views/contacto.html">CONTACTO</a>
         </nav>
-        <div class="nav-actions">
-            <span></span>
-            <span></span>
-        </div>
     </header>
 
     <section class="hero">
@@ -34,64 +46,21 @@
 
     <main class="container">
         <section class="productos-destacados">
-            <h2>Productos destacados</h2>
-            
+            <h2 style="text-align: center; margin: 2rem 0;">Productos destacados</h2>
             <div class="grid-destacados">
-                <!-- Tarjeta 1 -->
-                <div class="product-card">
-                    <img src="img/esponja.jpg" alt="Esponja vegetal">
-                    <h3>Esponja Vegetal</h3>
-                    <p>100% biodegradable y compostable. Limpieza profunda sin microplásticos.</p>
-                    <span class="price">$4.50</span>
-                    <a href="views/productos.html" class="btn-ver">Ver más</a>
-                </div>
-            
-                <!-- Tarjeta 2 -->
-                <div class="product-card">
-                    <img src="img/bolsa_malla.jpg" alt="Bolsa de malla">
-                    <h3>Bolsa de Malla</h3>
-                    <p>Reutilizable y resistente. Ideal para tus compras a granel en el mercado.</p>
-                    <span class="price">$6.00</span>
-                    <a href="views/productos.html" class="btn-ver">Ver más</a>
-                </div>
-            
-                <!-- Tarjeta 3 -->
-                <div class="product-card">
-                    <img src="img/cepillobambu.jpg" alt="Cepillo de bambú">
-                    <h3>Cepillo de Bambú</h3>
-                    <p>Mango de bambú natural y cerdas suaves. La alternativa perfecta al plástico.</p>
-                    <span class="price">$3.50</span>
-                    <a href="views/productos.html" class="btn-ver">Ver más</a>
-                </div>
-            
-                <!-- Tarjeta 4 -->
-                <div class="product-card">
-                    <img src="img/disco.jpg" alt="Discos desmaquillantes">
-                    <h3>Discos Desmaquillantes</h3>
-                    <p>Algodón orgánico reutilizable. Suaves con tu piel y amables con el planeta.</p>
-                    <span class="price">$8.99</span>
-                    <a href="views/productos.html" class="btn-ver">Ver más</a>
-                </div>
-            
-                <!-- Tarjeta 5 -->
-                <div class="product-card">
-                    <img src="img/envoltorio.jpg" alt="Envoltorio de cera">
-                    <h3>Envoltorio de Cera</h3>
-                    <p>Conserva tus alimentos naturalmente. Lavable, reutilizable y sin tóxicos.</p>
-                    <span class="price">$12.50</span>
-                    <a href="views/productos.html" class="btn-ver">Ver más</a>
-                </div>
-            </div>
-                </div>
+                <!-- Tus 4 productos destacados -->
+                <article class="product-card"><img src="img/cepillobambu.jpg" alt="Cepillo"><div class="card-content"><h3>Cepillo de bambú</h3><p>Mango de madera sostenible.</p><span class="price">$19.99</span></div><a href="views/productos.html" class="btn-ver">Ver más</a></article>
+                <article class="product-card"><img src="img/Botella_de_acero.jpg" alt="Botella"><div class="card-content"><h3>Botella de Acero</h3><p>Reutilizable y térmica.</p><span class="price">$24.99</span></div><a href="views/productos.html" class="btn-ver">Ver más</a></article>
+                <article class="product-card"><img src="img/jabones.jpg" alt="Jabón"><div class="card-content"><h3>Jabón Artesanal</h3><p>Aceites orgánicos y lavanda.</p><span class="price">$8.50</span></div><a href="views/productos.html" class="btn-ver">Ver más</a></article>
+                <article class="product-card"><img src="img/esponja.jpg" alt="Esponja"><div class="card-content"><h3>Esponja Luffa</h3><p>100% biodegradable.</p><span class="price">$6.00</span></div><a href="views/productos.html" class="btn-ver">Ver más</a></article>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container" style="text-align: center; padding: 2rem 0;">
-            <p>&copy; 2026 EcoMarket. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Eco-Market - Todos los derechos reservados.</p>
         </div>
     </footer>
-
 </body>
 </html>

@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - EcoMarket</title>
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/componentes.css">
-    <link rel="stylesheet" href="../index.html">
 </head>
 <body>
 
-    <!-- Header Profesional -->
     <header>
         <div class="logo">ECO-MARKET</div>
         <nav>
@@ -21,43 +20,63 @@
         </nav>
     </header>
 
-    <main class="catalogo-page">
-        <!-- Sidebar de Filtros -->
-        <aside class="sidebar">
-            <h3>Categorías</h3>
-            <ul class="filtros">
-                <li><a href="#">Todo</a></li>
-                <li><a href="#">Cuidado Personal</a></li>
-                <li><a href="#">Hogar y Cocina</a></li>
-                <li><a href="#">Estilo de Vida</a></li>
-            </ul>
-        </aside>
+    <main class="container">
+        <div class="main-layout">
+            <aside class="sidebar sticky-top">
+                <h3>Categorías</h3>
+                <ul class="filtros">
+                    <li><a href="#cuidado-personal" class="filter-link">Cuidado Personal</a></li>
+                    <li><a href="#hogar-cocina" class="filter-link">Hogar y Cocina</a></li>
+                    <li><a href="#estilo-vida" class="filter-link">Estilo de Vida</a></li>
+                </ul>
+            </aside>
 
-        <!-- Grid de 20 Productos -->
-        <section class="grid-productos">
-            <!-- Bloques repetidos 20 veces -->
-            <div class="product-card"><img src="../img/producto1.jpg" alt="Producto"><div class="product-info"><h3>Producto 1</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto2.jpg" alt="Producto"><div class="product-info"><h3>Producto 2</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto3.jpg" alt="Producto"><div class="product-info"><h3>Producto 3</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto4.jpg" alt="Producto"><div class="product-info"><h3>Producto 4</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto5.jpg" alt="Producto"><div class="product-info"><h3>Producto 5</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto6.jpg" alt="Producto"><div class="product-info"><h3>Producto 6</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto7.jpg" alt="Producto"><div class="product-info"><h3>Producto 7</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto8.jpg" alt="Producto"><div class="product-info"><h3>Producto 8</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto9.jpg" alt="Producto"><div class="product-info"><h3>Producto 9</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto10.jpg" alt="Producto"><div class="product-info"><h3>Producto 10</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto11.jpg" alt="Producto"><div class="product-info"><h3>Producto 11</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto12.jpg" alt="Producto"><div class="product-info"><h3>Producto 12</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto13.jpg" alt="Producto"><div class="product-info"><h3>Producto 13</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto14.jpg" alt="Producto"><div class="product-info"><h3>Producto 14</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto15.jpg" alt="Producto"><div class="product-info"><h3>Producto 15</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto16.jpg" alt="Producto"><div class="product-info"><h3>Producto 16</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto17.jpg" alt="Producto"><div class="product-info"><h3>Producto 17</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto18.jpg" alt="Producto"><div class="product-info"><h3>Producto 18</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto19.jpg" alt="Producto"><div class="product-info"><h3>Producto 19</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-            <div class="product-card"><img src="../img/producto20.jpg" alt="Producto"><div class="product-info"><h3>Producto 20</h3><p>Descripción clara.</p><span class="price">$19.99</span><a href="#" class="btn-ver">Ver más</a></div></div>
-        </section>
+            <div class="content-wrapper">
+                <section id="cuidado-personal">
+                    <h2>Cuidado Personal</h2>
+                    <div class="grid-destacados">
+                        <article class="product-card"><img src="../img/cepillobambu.jpg" alt="Cepillo"><div class="card-content"><h3>Cepillo de bambú</h3><p>Mango de madera sostenible.</p><span class="price">$19.99</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/peine.jpg" alt="Peine"><div class="card-content"><h3>Peine de Bambú</h3><p>Suave y ecológico.</p><span class="price">$12.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/jabones.jpg" alt="Jabón"><div class="card-content"><h3>Jabón Artesanal</h3><p>Aceites orgánicos.</p><span class="price">$8.50</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/shampucoco.jpg" alt="Shampú"><div class="card-content"><h3>Shampú de coco</h3><p>Hidratante natural.</p><span class="price">$9.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/aceite.jpg" alt="Aceite"><div class="card-content"><h3>Aceite Esencial</h3><p>Eucalipto puro.</p><span class="price">$12.50</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/cepillocor.jpg" alt="Cepillo"><div class="card-content"><h3>Cepillo Corporal</h3><p>Fibra vegetal.</p><span class="price">$13.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/disco.jpg" alt="Discos"><div class="card-content"><h3>Discos Desmaquillantes</h3><p>Lavables.</p><span class="price">$10.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                    </div>
+                </section>
+
+                <section id="hogar-cocina">
+                    <h2>Hogar y Cocina</h2>
+                    <div class="grid-destacados">
+                        <article class="product-card"><img src="../img/tazadeceramica.jpg" alt="Taza"><div class="card-content"><h3>Taza de Cerámica</h3><p>Artesanía local.</p><span class="price">$15.50</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/esponja.jpg" alt="Esponja"><div class="card-content"><h3>Esponja Luffa</h3><p>100% biodegradable.</p><span class="price">$6.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/filtro.jpg" alt="Filtro"><div class="card-content"><h3>Filtro de café</h3><p>Lavable.</p><span class="price">$3.50</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/cesto.jpg" alt="Cesto"><div class="card-content"><h3>Cesto de Mimbre</h3><p>Organizador.</p><span class="price">$28.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/jabonerapiedra.jpg" alt="Jabonera"><div class="card-content"><h3>Jabonera de Piedra</h3><p>Exclusiva.</p><span class="price">$14.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/ceradeabeja.jpg" alt="Cera"><div class="card-content"><h3>Cera de Abeja</h3><p>Envoltorio ecológico.</p><span class="price">$11.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/termobambu.jpg" alt="Termo"><div class="card-content"><h3>Termo de Bambú</h3><p>Minimalista.</p><span class="price">$26.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                    </div>
+                </section>
+
+                <section id="estilo-vida">
+                    <h2>Estilo de Vida</h2>
+                    <div class="grid-destacados">
+                        <article class="product-card"><img src="../img/Botella_de_acero.jpg" alt="Botella"><div class="card-content"><h3>Botella de Acero</h3><p>Reutilizable.</p><span class="price">$24.99</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/bolsaalgodon.jpg" alt="Bolsa"><div class="card-content"><h3>Bolsa de Algodón</h3><p>Sin plástico.</p><span class="price">$5.99</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/popotedemetal.jpg" alt="Popote"><div class="card-content"><h3>Popote de Metal</h3><p>Con estuche.</p><span class="price">$4.99</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/veladesoja.jpg" alt="Vela"><div class="card-content"><h3>Vela de Soja</h3><p>Vainilla.</p><span class="price">$14.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/toalla.jpg" alt="Toalla"><div class="card-content"><h3>Toalla de Bambú</h3><p>Absorbente.</p><span class="price">$22.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                        <article class="product-card"><img src="../img/Cuerovegano.jpg" alt="Cuero"><div class="card-content"><h3>Cuero vegano</h3><p>Libre de crueldad.</p><span class="price">$7.00</span></div><a href="#" class="btn-ver">Ver más</a></article>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Eco-Market - Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
