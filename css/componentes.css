@@ -201,3 +201,56 @@ section h2 {
     border-left: 5px solid #059669;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
+
+.banner-contador {
+    /* Mantenemos el gradiente y la imagen */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('../img/bambu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Altura mayor para que se vea más "largo" */
+    height: 120px; 
+    width: 100%;
+    
+    /* Flex para centrar el contenido perfectamente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Estilos de texto */
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    
+    /* Margen para separarlo del contenido inferior */
+    margin-bottom: 2rem;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .banner-contador {
+        height: 80px; /* Un poco más pequeño en móvil para no ocupar toda la pantalla */
+        font-size: 1.1rem; /* Texto más pequeño en móvil */
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+.banner-contador {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../img/bambu.jpg');
+    background-size: cover;          /* Obliga a que la imagen cubra el espacio */
+    background-position: center;     /* Centra la imagen */
+    height: 120px;                   /* Ajusta esto para hacerlo más "largo" */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
